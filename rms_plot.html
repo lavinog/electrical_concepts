@@ -10,7 +10,7 @@
   </head>
   <body>
     <h1>Root Mean Square Test</h1>
-    <canvas id="plotCanvas1" width="80%" height="50%"></canvas>
+    <canvas id="plotCanvas1" width="360px" height="800px"></canvas>
     
     <div class="sliderContainer">
       <div>
@@ -33,7 +33,11 @@
         <input type="range" min="-600" max="600" value="0" class="slider" id="dcOffsetSlider">
         <span id="dcOffsetOutput">0</span>
       </div>
-  </div>
+	</div>
+	<div id="outputContainer">
+	<span>RMS Value:</span>
+	<span id="rmsValueOutput"></span>
+	</div>
 
   <script src="rms_plot.js"></script>
   </body>
